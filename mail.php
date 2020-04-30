@@ -13,14 +13,14 @@ $mensagem = $_POST['mensagem'];
 
 //REMETENTE --> ESTE EMAIL TEM QUE SER VALIDO DO DOMINIO
 //==================================================== 
-$email_remetente = "contato@matheusteixeira.com.br"; // deve ser uma conta de email do seu dominio 
+$email_remetente = "name@domain.com.br"; // deve ser uma conta de email do seu dominio 
 //====================================================
 
 //Configurações do email, ajustar conforme necessidade
 //==================================================== 
-$email_destinatario = "contato.matheusteixeira@gmail.com"; // pode ser qualquer email que receberá as mensagens
+$email_destinatario = "your_email@gmail.com"; // pode ser qualquer email que receberá as mensagens
 $email_reply = "$email"; 
-$email_assunto = "Contato - Matheus Teixeira (site)"; // Este será o assunto da mensagem
+$email_assunto = "Contact form"; // Este será o assunto da mensagem
 //====================================================
 
 //Monta o Corpo da Mensagem
